@@ -1,6 +1,5 @@
 'use client';
 
-import { useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 import { FiBriefcase, FiCalendar } from 'react-icons/fi';
 
@@ -128,8 +127,8 @@ const Experience = () => {
                     <span>{exp.period}</span>
                   </div>
                   <ul className="text-gray-300 mb-4 exp-description">{
-                    exp.description.map((exp) => (
-                      <li>{exp}</li>
+                    exp.description.map((index, exp) => (
+                      <li key={index}>{exp}</li>
                     ))
                     }
                     </ul>

@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { FiMail, FiMapPin, FiGithub, FiLinkedin, FiTwitter, FiBriefcase } from 'react-icons/fi';
+import { FiMail, FiMapPin, FiGithub, FiLinkedin, FiBriefcase } from 'react-icons/fi';
 
 const Contact = () => {
   return (

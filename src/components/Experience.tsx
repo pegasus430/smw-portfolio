@@ -127,7 +127,7 @@ const Experience = () => {
                     <span>{exp.period}</span>
                   </div>
                   <ul className="text-gray-300 mb-4 exp-description">{
-                    exp.description.map((index, exp) => (
+                    exp.description.map((exp, index) => (
                       <li key={index}>{exp}</li>
                     ))
                     }

@@ -127,7 +127,7 @@ const Contact = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            Let's Connect
+            Let&apos;s Connect
           </motion.h2>
           <motion.div 
             className="w-24 h-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 mx-auto rounded-full mb-4"
@@ -141,7 +141,7 @@ const Contact = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.3 }}
           >
-            Have a project in mind or want to discuss opportunities? I'd love to hear from you!
+            Have a project in mind or want to discuss opportunities? I&apos;d love to hear from you!
           </motion.p>
         </motion.div>
 
@@ -277,7 +277,7 @@ const Contact = () => {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.4 }}
                 >
-                  I'm currently open to new opportunities and would love to hear from you.
+                  I&apos;m currently open to new opportunities and would love to hear from you.
                   Feel free to reach out through any of the contact methods above.
                 </motion.p>
                 
